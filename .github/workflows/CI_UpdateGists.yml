@@ -1,0 +1,23 @@
+name: CI - Update Gists from Repository
+on: push
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code for 3dwork-klipper-qidi
+        uses: actions/checkout@v3
+        
+      - name: Checkout code for Gist
+        uses: actions/checkout@v3
+        
+      - name: Creating 3dwork-klipper-qidi.cfg Gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.TOKEN }}
+          gist_id: 8aeb3ce96eafd7f88a3176f63404aa53
+          file_path: 3dwork-klipper-qidi.cfg
+          file_type: binary
