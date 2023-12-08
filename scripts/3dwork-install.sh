@@ -36,35 +36,23 @@ register_gcode_shell_command()
     register_klippy_extension $EXT_NAME $EXT_PATH $EXT_FILE
 }
 
-install_beacon()
+install_klippain-shaketune()
 {
-	KLIPPER_DIR="/home/pi/klipper"
-	KLIPPER_ENV="/home/pi/klippy-env"
-	BEACON_DIR="/home/pi/beacon"
+	SHAKETUNE_DIR="/home/mks/klippain_shaketune/K-ShakeTune"
     report_status "Installing beacon module..."
 
-	if [ -d "$BEACON_DIR" ] || [ -e "$KLIPPER_DIR/klippy/extras/beacon.py" ]; then
-		echo "beacon: beacon already installed, skipping..."
+	if [ -d "$SHAKETUNE_DIR" ]; then
+		echo "Klippain Shaketune: already installed, skipping..."
 		return
 	fi
 
-	if [ ! -d "$KLIPPER_DIR" ] || [ ! -d "$KLIPPER_ENV" ]; then
-		echo "beacon: klipper or klippy env doesn't exist"
-		return
-	fi
+	# install klippain shaketune from script
+    report_status "Installing Klippain Shaketune"
+    sudo wget -O - https://raw.githubusercontent.com/Frix-x/klippain-shaketune/main/install.sh | bash
 
-	pushd "/home/pi" || return
-	git clone https://github.com/beacon3d/beacon_klipper.git beacon
-	chown -R pi:pi beacon
-	popd || return
-
-	# install beacon requirements to env
-	echo "beacon: installing python requirements to env."
-	"${KLIPPER_ENV}/bin/pip" install -r "${BEACON_DIR}/requirements.txt"
-
-	# update link to beacon.py
-	echo "beacon: registering beacon with the configurator."
-	register_klippy_extension "beacon" "$BEACON_DIR" "beacon.py"
+	# symbolic link klippain shaketune to klipper config directory
+    report_status "Creating symbolic link klippain shaketune to klipper config directory"
+    sudo ln -sf /home/mks/klippain_shaketune/K-ShakeTune/ /home/mks/klipper_config/K-ShakeTune
 
 }
 
@@ -76,3 +64,4 @@ install_hooks
 #install_dependencies
 ensure_sudo_command_whitelisting
 register_gcode_shell_command
+install_klippain-shaketune
