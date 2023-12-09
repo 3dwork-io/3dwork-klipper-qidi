@@ -4,8 +4,6 @@
 SYSTEMDDIR="/etc/systemd/system"
 PKGLIST="python3-numpy python3-matplotlib jq"
 
-source /home/pi/printer_data/config/3dwork-klipper/scripts/3dwork-common.sh
-
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 install_dependencies()
@@ -14,18 +12,17 @@ install_dependencies()
     sudo apt-get update && sudo apt-get install -y $PKGLIST
 }
 
-install_udev_rules()
-{
-    report_status "Installing udev rules"
-    sudo ln -s /home/pi/printer_data/config/3dwork-klipper/boards/*/*.rules /etc/udev/rules.d/
-}
-
 verify_ready()
 {
     if [ "$EUID" -eq 0 ]; then
         echo "This script must not run as root"
         exit -1
     fi
+}
+
+ensure_ownership() {
+  $sudo chown mks:mks -R /home/mks/klipper_config/3dwork-klipper-qidi/scripts
+  $sudo chmod 440 /home/mks/klipper_config/3dwork-klipper-qidi/scripts
 }
 
 register_gcode_shell_command()
@@ -60,8 +57,8 @@ install_klippain-shaketune()
 set -e
 
 verify_ready
-install_hooks
+ensure_ownership
 #install_dependencies
-ensure_sudo_command_whitelisting
+#ensure_sudo_command_whitelisting
 register_gcode_shell_command
 install_klippain-shaketune
