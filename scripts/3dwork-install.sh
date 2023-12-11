@@ -28,6 +28,7 @@ verify_ready()
 ensure_ownership() {
   $sudo chown mks:mks -R /home/mks/klipper_config/3dwork-klipper-qidi/scripts
   $sudo chmod 777 /home/mks/klipper_config/3dwork-klipper-qidi/scripts
+  $sudo chmod +x /home/mks/klipper_config/3dwork-klipper-qidi/scripts/*.sh
 }
 
 register_klippy_extension() {
