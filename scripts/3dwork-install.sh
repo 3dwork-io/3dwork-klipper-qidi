@@ -6,15 +6,12 @@ PKGLIST="python3-venv"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+# Script sources for common procedures
+source /home/mks/klipper_config/3dwork-klipper-qidi/scripts/3dwork-common.sh
+
 report_status()
 {
     echo -e "\n\n###### $1"
-}
-
-install_dependencies()
-{
-    report_status "Installing 3Dwork dependencies"
-    sudo apt-get update && sudo apt-get install -y $PKGLIST
 }
 
 verify_ready()
@@ -25,31 +22,10 @@ verify_ready()
     fi
 }
 
-ensure_ownership() {
-  report_status "Ensure Scripts Ownership... chown"
-  $sudo chown mks:mks -R /home/mks/klipper_config/3dwork-klipper-qidi/scripts
-  report_status "Ensure Scripts Ownership... chmod"
-  $sudo chmod +x /home/mks/klipper_config/3dwork-klipper-qidi/scripts/*.sh
-}
-
-register_klippy_extension() {
-    EXT_NAME=$1
-    EXT_PATH=$2
-    EXT_FILE=$3
-    report_status "Registering klippy extension '$EXT_NAME' with the 3Dwork Configurator..."
-    if [ ! -e $EXT_PATH/$EXT_FILE ]
-    then
-        echo "ERROR: The file you're trying to register does not exist"
-        exit 1
-    fi
-    curl --silent --fail -X POST 'http://localhost:3000/configure/api/trpc/klippy-extensions.register' -H 'content-type: application/json' --data-raw "{\"json\":{\"extensionName\":\"$EXT_NAME\",\"path\":\"$EXT_PATH\",\"fileName\":\"$EXT_FILE\"}}" > /dev/null
-    if [ $? -eq 0 ]
-    then
-        echo "Registered $EXT_NAME successfully."
-    else
-        echo "ERROR: Failed to register $EXT_NAME. Is the 3Dwork configurator running?"
-        exit 1
-    fi
+install_dependencies()
+{
+    report_status "Installing 3Dwork dependencies"
+    sudo apt-get update && sudo apt-get install -y $PKGLIST
 }
 
 register_gcode_shell_command()
@@ -80,11 +56,11 @@ install_klippain_shaketune()
 }
 
 # Force script to exit if an error occurs
-set -e
+set -xe
 
 verify_ready
-ensure_ownership
+install_hooks
 install_dependencies
-#ensure_sudo_command_whitelisting
+ensure_sudo_command_whitelisting
 register_gcode_shell_command
 install_klippain_shaketune
