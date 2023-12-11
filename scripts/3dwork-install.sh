@@ -6,6 +6,11 @@ PKGLIST="python3-numpy python3-matplotlib jq"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+report_status()
+{
+    echo -e "\n\n###### $1"
+}
+
 install_dependencies()
 {
     report_status "Installing 3Dwork dependencies"
