@@ -2,7 +2,7 @@
 # This script install additional dependencies
 
 SYSTEMDDIR="/etc/systemd/system"
-PKGLIST="python3-numpy python3-matplotlib jq"
+PKGLIST="python3-venv"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
@@ -26,8 +26,9 @@ verify_ready()
 }
 
 ensure_ownership() {
+  report_status "Ensure Scripts Ownership... chown"
   $sudo chown mks:mks -R /home/mks/klipper_config/3dwork-klipper-qidi/scripts
-  $sudo chmod 777 /home/mks/klipper_config/3dwork-klipper-qidi/scripts
+  report_status "Ensure Scripts Ownership... chmod"
   $sudo chmod +x /home/mks/klipper_config/3dwork-klipper-qidi/scripts/*.sh
 }
 
@@ -53,16 +54,15 @@ register_klippy_extension() {
 
 register_gcode_shell_command()
 {
-    EXT_NAME="gcode_shell_extension"
-    EXT_PATH=$(realpath $SCRIPT_DIR/../klippy)
-    EXT_FILE="gcode_shell_command.py"
-    register_klippy_extension $EXT_NAME $EXT_PATH $EXT_FILE
+    report_status "Register Gcode Shell Command... Installing"
+    cp /home/mks/klipper_config/3dwork-klipper-qidi/klippy/gcode_shell_command.py /home/mks/klipper/klippy/extras/
+    report_status "Register Gcode Shell Command... Success!!!"
 }
 
-install_klippain-shaketune()
+install_klippain_shaketune()
 {
 	SHAKETUNE_DIR="/home/mks/klippain_shaketune/K-ShakeTune"
-    report_status "Installing beacon module..."
+    report_status "Installing Klippain Shaketune module..."
 
 	if [ -d "$SHAKETUNE_DIR" ]; then
 		echo "Klippain Shaketune: already installed, skipping..."
@@ -84,7 +84,7 @@ set -e
 
 verify_ready
 ensure_ownership
-#install_dependencies
+install_dependencies
 #ensure_sudo_command_whitelisting
 register_gcode_shell_command
-install_klippain-shaketune
+install_klippain_shaketune

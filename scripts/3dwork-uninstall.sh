@@ -14,6 +14,10 @@ uninstall_3dwork-klipper-qidi()
         echo "This script must not run as root"
         exit -1
     fi
+    report_status "Uninstalling/Deleting... Klippain Shaketune"
+    sudo rm -r -f /home/mks/klippain_shaketune
+    sudo rm -r -f /home/mks/klippain_shaketune-env
+    report_status "Uninstalling/Deleting... Klippain Shaketune ENV"
 }
 
 # Force script to exit if an error occurs
