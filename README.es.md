@@ -23,7 +23,7 @@
 >
 >     ./3dwork-install.sh
 >
-> -   From your Klipper web UI add this line to the end of your moonraker.conf config file:
+> -   Desde la interfaz de usuario web de Klipper, agregue esta línea al final de su archivo de configuración moonraker.conf:
 >
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
@@ -33,6 +33,8 @@
 -   [x] Crear repositorio
 -   [x] Crear instalador base
 -   [x] Crear modificaciones de perfil de impresora QIDI X-Max 3
+-   [x] CI: actualizar aspectos esenciales
+-   [x] CI - Léame Traducción automática
 -   [x] Agregar mod de temperatura MCU
 -   [x] Agregar configuración de nivelación de cama manual
 -   [x] Arad Klippain puede
