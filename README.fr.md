@@ -11,9 +11,9 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une installation propre :
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
 >
-> -   Execute this command to access bundle scripts folder
+> -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
@@ -33,6 +33,8 @@
 -   [x] Créer un référentiel
 -   [x] Créer un programme d'installation de base
 -   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
+-   [x] CI - Mettre à jour l'essentiel
+-   [x] CI - Traduction automatique Readme
 -   [x] Ajouter un mod de température MCU
 -   [x] Ajouter une configuration de mise à niveau manuelle
 -   [x] Arad Klippain peut
