@@ -6,12 +6,12 @@
 
     cd ~/klipper_config/
 
--   Clone 3Dwork Cutter Bundle - Édition QIDI
+-   Clone 3Dwork Klipper Bundle - QIDI Edition
 
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une installation propre :
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
@@ -38,4 +38,5 @@
 -   [x] Ajouter un mod de température MCU
 -   [x] Ajouter une configuration de mise à niveau manuelle
 -   [x] Arad Klippain peut
+-   [x] Ajoutez des macros PID intelligentes avec sélection de la température et de la vitesse du ventilateur et journal/notification - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Ajoutez des macros Smart M600 avec prise en charge de la gestion des filaments, des variables pour une configuration personnalisée et des macros utilisateur pour intégrer des actions tierces (comme la gestion des LED, le buzzer, etc...)
