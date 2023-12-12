@@ -13,7 +13,7 @@
 
 > [!AVVERTIMENTO]Necessario solo la prima volta in caso di installazione pulita:
 >
-> -   Execute this command to access bundle scripts folder
+> -   Esegui questo comando per accedere alla cartella degli script del bundle
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
@@ -30,13 +30,13 @@
 
 # Elenco attività
 
--   [x] Create Repository
+-   [x] Crea archivio
 -   [x] Crea programma di installazione di base
 -   [x] Crea mod del profilo stampante QIDI X-Max 3
 -   [x] CI: aggiornamento dei contenuti
 -   [x] CI - Traduzione automatica Leggimi
--   [x] Aggiungi il mod temperatura MCU
--   [x] Aggiungi la configurazione manuale del livellamento del letto
--   [x] Add Klippain ShakeTune
--   [x] Aggiungi macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
--   [ ] Aggiungi macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, buzzer, ecc...)
+-   [x] Aggiunto mod temperatura MCU
+-   [x] Aggiunta la configurazione manuale del livellamento del letto
+-   [x] Può aggiungere clip
+-   [x] Aggiunte macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
+-   [ ] Aggiunte macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, buzzer, ecc...)
