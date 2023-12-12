@@ -23,7 +23,7 @@
 >
 >     ./3dwork-install.sh
 >
-> -   Desde la interfaz de usuario web de Klipper, agregue esta línea al final de su archivo de configuración moonraker.conf:
+> -   From your Klipper web UI add this line to the end of your moonraker.conf config file:
 >
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
@@ -38,4 +38,5 @@
 -   [x] Agregar mod de temperatura MCU
 -   [x] Agregar configuración de nivelación de cama manual
 -   [x] Arad Klippain puede
+-   [x] Agregue macros PID inteligentes con selección de temperatura y velocidad del ventilador y registro/notificación - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Agregue macros Smart M600 con soporte de gestión de filamentos, variables para configuración personalizada y macros de usuario para integrar acciones de terceros (como gestión de LED, zumbador, etc...)
