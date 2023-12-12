@@ -32,4 +32,5 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 - [x] Add MCU temperature mod
 - [x] Add manual bedleveling config
 - [x] Add Klippain ShakeTune
+- [x] Add Smart PID macros with temperature and fan speed selection and log/notification - PID_EXTRUDER / PID_BED / PID_ALL
 - [ ] Add Smart M600 macros with filament management support, variables for custom setup and user macros to integrate third party actions (like led management, buzzer, etc...)
