@@ -27,6 +27,8 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 - [x] Create Repository
 - [x] Create base installer
 - [x] Create QIDI X-Max 3 printer profile mods
+- [x] CI - Update Gists
+- [x] CI - Readme Automatic Translation
 - [x] Add MCU temperature mod
 - [x] Add manual bedleveling config
 - [x] Add Klippain ShakeTune
