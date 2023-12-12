@@ -33,4 +33,4 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 - [x] Added manual bedleveling config
 - [x] Added Klippain ShakeTune
 - [x] Added Smart PID macros with temperature and fan speed selection and log/notification - PID_EXTRUDER / PID_BED / PID_ALL
-- [ ] Added Smart M600 macros with filament management support, variables for custom setup and user macros to integrate third party actions (like led management, buzzer, etc...)
+- [ ] Added Smart M600 macros with filament management support, variables for custom setup and user macros to integrate third party actions (like led management, buzzer, etc...) - M600 / PAUSE_MACRO / _DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / _ENABLE_FS
