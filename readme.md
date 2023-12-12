@@ -26,6 +26,8 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 # Tasks List
 - [x] Create Repository
 - [x] Create base installer
+- [x] Create QIDI X-Max 3 printer profile mods
 - [x] Add MCU temperature mod
+- [x] Add manual bedleveling config
 - [x] Add Klippain ShakeTune
-- [ ] Add Smart M600 macros
+- [ ] Add Smart M600 macros with filament management support, variables for custom setup and user macros to integrate third party actions (like led management, buzzer, etc...)
