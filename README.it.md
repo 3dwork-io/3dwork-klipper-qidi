@@ -32,7 +32,9 @@
 
 -   [x] Crea archivio
 -   [x] Crea programma di installazione di base
--   [x] Crea mod del profilo della stampante QIDI X-Max 3
+-   [x] Crea mod del profilo stampante QIDI X-Max 3
+-   [x] CI: aggiornamento dei contenuti
+-   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiungi il mod temperatura MCU
 -   [x] Aggiungi la configurazione manuale del livellamento del letto
 -   [x] Arad Klippain può
