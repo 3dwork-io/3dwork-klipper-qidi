@@ -35,8 +35,8 @@
 -   [x] Erstellen Sie QIDI X-Max 3-Druckerprofil-Mods
 -   [x] CI – Kernaktualisierung
 -   [x] CI – Readme-Automatische Übersetzung
--   [x] MCU-Temperatur-Mod hinzufügen
--   [x] Fügen Sie eine manuelle Bedleveling-Konfiguration hinzu
--   [x] Arad Klippain kann
--   [x] Fügen Sie intelligente PID-Makros mit Temperatur- und Lüftergeschwindigkeitsauswahl sowie Protokoll/Benachrichtigung hinzu – PID_EXTRUDER / PID_BED / PID_ALL
--   [ ] Fügen Sie Smart M600-Makros mit Filament-Management-Unterstützung, Variablen für benutzerdefinierte Einrichtung und Benutzermakros hinzu, um Aktionen von Drittanbietern zu integrieren (wie LED-Management, Summer usw.).
+-   [x] MCU-Temperatur-Mod hinzugefügt
+-   [x] Manuelle Bedleveling-Konfiguration hinzugefügt
+-   [x] Kann Clips hinzufügen
+-   [x] Smart PID-Makros mit Temperatur- und Lüftergeschwindigkeitsauswahl sowie Protokoll/Benachrichtigung hinzugefügt – PID_EXTRUDER / PID_BED / PID_ALL
+-   [ ] Smart M600-Makros mit Filament-Management-Unterstützung, Variablen für benutzerdefinierte Einrichtung und Benutzermakros zur Integration von Aktionen von Drittanbietern (wie LED-Verwaltung, Summer usw.) hinzugefügt.
