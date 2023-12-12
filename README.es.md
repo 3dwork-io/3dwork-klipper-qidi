@@ -6,7 +6,7 @@
 
     cd ~/klipper_config/
 
--   Clone 3Dwork Klipper Bundle - QIDI Edition
+-   Paquete de cortador Clone 3Dwork - Edición QIDI
 
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
@@ -30,7 +30,7 @@
 
 # Lista de tareas
 
--   [x] Crear repositorio
+-   [x] Create Repository
 -   [x] Crear instalador base
 -   [x] Crear modificaciones de perfil de impresora QIDI X-Max 3
 -   [x] CI: actualizar aspectos esenciales
@@ -39,4 +39,4 @@
 -   [x] Se agregó configuración de nivelación de cama manual.
 -   [x] Puede agregar clips
 -   [x] Se agregaron macros PID inteligentes con selección de temperatura y velocidad del ventilador y registro/notificación - PID_EXTRUDER / PID_BED / PID_ALL
--   [ ] Se agregaron macros Smart M600 con soporte de administración de filamentos, variables para configuración personalizada y macros de usuario para integrar acciones de terceros (como administración de LED, zumbador, etc.)
+-   [ ] Se agregaron macros Smart M600 con soporte de administración de filamentos, variables para configuración personalizada y macros de usuario para integrar acciones de terceros (como administración de LED, zumbador, etc.) - M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
