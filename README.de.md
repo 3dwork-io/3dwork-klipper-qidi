@@ -33,6 +33,8 @@
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
 -   [x] Erstellen Sie QIDI X-Max 3-Druckerprofil-Mods
+-   [x] CI – Kernaktualisierung
+-   [x] CI – Readme-Automatische Übersetzung
 -   [x] MCU-Temperatur-Mod hinzufügen
 -   [x] Fügen Sie eine manuelle Bedleveling-Konfiguration hinzu
 -   [x] Arad Klippain kann
