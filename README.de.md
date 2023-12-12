@@ -38,4 +38,5 @@
 -   [x] MCU-Temperatur-Mod hinzufügen
 -   [x] Fügen Sie eine manuelle Bedleveling-Konfiguration hinzu
 -   [x] Arad Klippain kann
+-   [x] Fügen Sie intelligente PID-Makros mit Temperatur- und Lüftergeschwindigkeitsauswahl sowie Protokoll/Benachrichtigung hinzu – PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Fügen Sie Smart M600-Makros mit Filament-Management-Unterstützung, Variablen für benutzerdefinierte Einrichtung und Benutzermakros hinzu, um Aktionen von Drittanbietern zu integrieren (wie LED-Management, Summer usw.).
