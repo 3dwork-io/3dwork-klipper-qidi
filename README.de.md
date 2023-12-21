@@ -1,6 +1,6 @@
 # Installationsschritte
 
--   Melden Sie sich mit dem SSH-Client bei Ihrem QIDI-Drucker an
+-   Login using SSH client to your QIDI printer
 -   Führen Sie diesen Befehl aus, um auf den klipper_config-Pfad zuzugreifen
 
 
@@ -13,7 +13,7 @@
 
 > [!WARNUNG]Wird nur beim ersten Mal bei einer Neuinstallation benötigt:
 >
-> -   Führen Sie diesen Befehl aus, um auf den Bundle-Skriptordner zuzugreifen
+> -   Execute this command to access bundle scripts folder
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
@@ -33,9 +33,9 @@
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
 -   [x] Erstellen Sie QIDI X-Max 3-Druckerprofil-Mods
--   [x] CI - Update Gists
+-   [x] CI – Kernaktualisierung
 -   [x] CI – Readme-Automatische Übersetzung
--   [x] MCU-Temperatur-Mod hinzugefügt
+-   [x] Added MCU temperature mod
 -   [x] Manuelle Bedleveling-Konfiguration hinzugefügt
 -   [x] Kann Clips hinzufügen
 -   [x] Smart PID-Makros mit Temperatur- und Lüftergeschwindigkeitsauswahl sowie Protokoll/Benachrichtigung hinzugefügt – PID_EXTRUDER / PID_BED / PID_ALL
