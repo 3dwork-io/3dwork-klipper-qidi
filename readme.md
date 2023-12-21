@@ -23,7 +23,7 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 [include 3dwork-klipper-qidi/moonraker.conf]
 ```
 - From your Klipper web UI add the content at the end of your printer.cfg (before SAVE_CONFIG section at the end) :
-
+{% gist 8aeb3ce96eafd7f88a3176f63404aa53 %}
 <script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
 
 - From the previous config enable (removing #) or disable (adding #) the configurations meets your machine/requirements
