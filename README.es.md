@@ -1,7 +1,7 @@
 # Pasos de instalación
 
 -   Inicie sesión usando el cliente SSH en su impresora QIDI
--   Ejecute este comando para acceder a la ruta klipper_config
+-   Execute this command to access klipper_config path
 
 
     cd ~/klipper_config/
