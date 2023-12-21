@@ -32,8 +32,8 @@
 
 -   [x] Crea archivio
 -   [x] Crea programma di installazione di base
--   [x] Crea mod del profilo della stampante QIDI X-Max 3
--   [x] CI: aggiornamento dei contenuti
+-   [x] Crea mod del profilo stampante QIDI X-Max 3
+-   [x] CI - Aggiornamento Gists
 -   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiunto mod temperatura MCU
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
