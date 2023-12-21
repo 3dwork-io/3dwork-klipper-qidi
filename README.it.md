@@ -1,4 +1,4 @@
-# Passaggi di installazione
+d# Passaggi di installazione
 
 -   Accedi utilizzando il client SSH alla tua stampante QIDI
 -   Esegui questo comando per accedere al percorso klipper_config
@@ -28,10 +28,8 @@
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
-> -   From your Klipper web UI add the content at the end of your printer.cfg (before SAVE_CONFIG section at the end) :
->     <https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>
-
--   Dalla configurazione precedente abilita (rimuovendo #) o disabilita (aggiungendo #) le configurazioni soddisfano i tuoi requisiti/macchina
+> -   Dall'interfaccia utente web di Klipper aggiungi il contenuto alla fine del tuo fileprinter.cfg (prima della sezione SAVE_CONFIG alla fine):<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/d76922d3-47ee-42ae-acff-f5523b143298)
+> -   Dalla configurazione precedente abilita (rimuovendo #) o disabilita (aggiungendo #) le configurazioni soddisfano i tuoi requisiti/macchina
 
 # Elenco attività
 
@@ -40,8 +38,8 @@
 -   [x] Crea mod del profilo stampante QIDI X-Max 3
 -   [x] CI - Aggiornamento Gists
 -   [x] CI - Traduzione automatica Leggimi
--   [x] Aggiunto mod temperatura MCU
+-   [x] Added MCU temperature mod
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
--   [x] Può aggiungere clip
+-   [x] Added Klippain ShakeTune
 -   [x] Aggiunte macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Aggiunte macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, cicalino, ecc...) - M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
