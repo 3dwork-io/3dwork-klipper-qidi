@@ -1,7 +1,7 @@
 # Étapes d'installation
 
 -   Connectez-vous à l'aide du client SSH à votre imprimante QIDI
--   Exécutez cette commande pour accéder au chemin klipper_config
+-   Execute this command to access klipper_config path
 
 
     cd ~/klipper_config/
@@ -11,7 +11,7 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une installation propre :
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
@@ -30,8 +30,8 @@
 
 # Liste des tâches
 
--   [x] Create Repository
--   [x] Create base installer
+-   [x] Créer un référentiel
+-   [x] Créer un programme d'installation de base
 -   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
 -   [x] CI - Mettre à jour l'essentiel
 -   [x] CI - Traduction automatique Readme
