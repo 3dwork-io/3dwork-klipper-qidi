@@ -28,7 +28,7 @@
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
-> -   From your Klipper web UI add the content at the end of your printer.cfg (before SAVE_CONFIG section at the end) :
+> -   Desde su interfaz de usuario web de Klipper, agregue el contenido al final de su impresora.cfg (antes de la sección SAVE_CONFIG al final):<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>
 
 -   Desde la configuración anterior, habilite (eliminando #) o deshabilite (agregando #), las configuraciones cumplen con sus requisitos/máquina
 
@@ -38,7 +38,7 @@
 -   [x] Crear instalador base
 -   [x] Crear modificaciones de perfil de impresora QIDI X-Max 3
 -   [x] CI: actualizar aspectos esenciales
--   [x] CI - Readme Automatic Translation
+-   [x] CI - Léame Traducción automática
 -   [x] Mod de temperatura MCU agregado
 -   [x] Se agregó configuración de nivelación de cama manual.
 -   [x] Puede agregar clips
