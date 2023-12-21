@@ -1,6 +1,6 @@
 # Installationsschritte
 
--   Login using SSH client to your QIDI printer
+-   Melden Sie sich mit dem SSH-Client bei Ihrem QIDI-Drucker an
 -   Führen Sie diesen Befehl aus, um auf den klipper_config-Pfad zuzugreifen
 
 
@@ -32,11 +32,11 @@
 
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
--   [x] Create QIDI X-Max 3 printer profile mods
+-   [x] Erstellen Sie QIDI X-Max 3-Druckerprofil-Mods
 -   [x] CI – Kernaktualisierung
 -   [x] CI – Readme-Automatische Übersetzung
 -   [x] MCU-Temperatur-Mod hinzugefügt
 -   [x] Manuelle Bedleveling-Konfiguration hinzugefügt
--   [x] Added Klippain ShakeTune
+-   [x] Kann Clips hinzufügen
 -   [x] Smart PID-Makros mit Temperatur- und Lüftergeschwindigkeitsauswahl sowie Protokoll/Benachrichtigung hinzugefügt – PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Smart M600-Makros mit Filament-Management-Unterstützung, Variablen für benutzerdefinierte Einrichtung und Benutzermakros zur Integration von Aktionen von Drittanbietern (wie LED-Verwaltung, Summer usw.) hinzugefügt – M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
