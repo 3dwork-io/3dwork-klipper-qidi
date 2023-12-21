@@ -13,7 +13,7 @@
 
 > [!AVVERTIMENTO]Necessario solo la prima volta in caso di installazione pulita:
 >
-> -   Esegui questo comando per accedere alla cartella degli script del bundle
+> -   Execute this command to access bundle scripts folder
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
@@ -29,8 +29,8 @@
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
 > -   Dall'interfaccia utente web di Klipper aggiungi il contenuto alla fine del tuo fileprinter.cfg (prima della sezione SAVE_CONFIG alla fine):
-
-<script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
+>     {% sintesi 8aeb3ce96eafd7f88a3176f63404aa53 %}
+>     <script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
 
 -   Dalla configurazione precedente abilita (rimuovendo #) o disabilita (aggiungendo #) le configurazioni soddisfano i tuoi requisiti/macchina
 
@@ -43,6 +43,6 @@
 -   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiunto mod temperatura MCU
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
--   [x] Può aggiungere clip
+-   [x] Added Klippain ShakeTune
 -   [x] Aggiunte macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Aggiunte macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, cicalino, ecc...) - M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
