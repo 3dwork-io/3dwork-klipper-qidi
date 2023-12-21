@@ -30,9 +30,9 @@
 
 # Lista de tareas
 
--   [x] Create Repository
+-   [x] Crear repositorio
 -   [x] Crear instalador base
--   [x] Crear modificaciones de perfil de impresora QIDI X-Max 3
+-   [x] Create QIDI X-Max 3 printer profile mods
 -   [x] CI: actualizar aspectos esenciales
 -   [x] CI - Léame Traducción automática
 -   [x] Mod de temperatura MCU agregado
