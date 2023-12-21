@@ -32,8 +32,8 @@
 
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
--   [x] Create QIDI X-Max 3 printer profile mods
--   [x] CI – Kernaktualisierung
+-   [x] Erstellen Sie QIDI X-Max 3-Druckerprofil-Mods
+-   [x] CI - Update Gists
 -   [x] CI – Readme-Automatische Übersetzung
 -   [x] MCU-Temperatur-Mod hinzugefügt
 -   [x] Manuelle Bedleveling-Konfiguration hinzugefügt
