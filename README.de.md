@@ -29,9 +29,12 @@ d# Installationsschritte
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
 > -   Fügen Sie über Ihre Klipper-Web-Benutzeroberfläche den Inhalt am Ende Ihrer Printer.cfg hinzu (vor dem Abschnitt SAVE_CONFIG am Ende):<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/d76922d3-47ee-42ae-acff-f5523b143298)
-> -   Aktivieren (Entfernen von #) oder Deaktivieren (Hinzufügen von #) aus der vorherigen Konfiguration entsprechen die Konfigurationen Ihrem Computer/Ihren Anforderungen
+> -   Aktivieren (Entfernen von #) oder Deaktivieren (Hinzufügen von #) aus der vorherigen Konfiguration die Konfigurationen, die Ihrem Computer/Ihren Anforderungen entsprechen ... sollte interessant sein, wenn Sie unsere regulären und Shell-Makros aktivieren :)
+> -   PID-Makros mit Parametern![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/98f7e7be-6e75-46e7-9da7-8c8d646fc478)![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/a8c4b5c0-959d-40b3-87b6-7f4965467680)![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/6cef6277-b344-40f1-b813-f911d17bc411)
+> -   M600/Filament-Management-Makros mit Filament-Runout-Sensor-Management für QIDI-Drucker![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/dc37f889-224a-4d7f-bd13-0ef105c46e5f)
+> -   Shell-Makros für Input Shaper, für XY und Riemenspannung, erstellen das Diagramm in einem über die Benutzeroberfläche zugänglichen Ordner zum einfachen Herunterladen![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/4182f04b-2913-4c7e-becb-029bc3801e5d)![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/3191ec9f-6db6-40a6-b76e-814e6e860e78)![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/8859285b-4703-4398-a138-7a4ae643de54)
 
-# Tasks List
+# Aufgabenliste
 
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
