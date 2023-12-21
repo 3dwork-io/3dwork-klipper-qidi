@@ -1,4 +1,4 @@
-# Étapes d'installation
+# Installation steps
 
 -   Connectez-vous à l'aide du client SSH à votre imprimante QIDI
 -   Exécutez cette commande pour accéder au chemin klipper_config
@@ -11,14 +11,15 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
+> [!AVERTISSEMENT]
+> Only needed first time on clean installation:
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
 >
-> -   Lancer le programme d'installation
+> -   Launch installer
 >
 >
 >     ./3dwork-install.sh
@@ -31,8 +32,8 @@
 # Liste des tâches
 
 -   [x] Créer un référentiel
--   [x] Créer un programme d'installation de base
--   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
+-   [x] Create base installer
+-   [x] Create QIDI X-Max 3 printer profile mods
 -   [x] CI - Mettre à jour l'essentiel
 -   [x] CI - Traduction automatique Readme
 -   [x] Ajout du module de température MCU
