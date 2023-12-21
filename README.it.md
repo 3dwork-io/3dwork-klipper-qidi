@@ -1,6 +1,6 @@
 # Passaggi di installazione
 
--   Login using SSH client to your QIDI printer
+-   Accedi utilizzando il client SSH alla tua stampante QIDI
 -   Esegui questo comando per accedere al percorso klipper_config
 
 
@@ -33,7 +33,7 @@
 -   [x] Crea archivio
 -   [x] Crea programma di installazione di base
 -   [x] Crea mod del profilo stampante QIDI X-Max 3
--   [x] CI - Aggiornamento Gists
+-   [x] CI: aggiornamento dei contenuti
 -   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiunto mod temperatura MCU
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
