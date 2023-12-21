@@ -37,6 +37,6 @@
 -   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiunto mod temperatura MCU
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
--   [x] Può aggiungere clip
+-   [x] Added Klippain ShakeTune
 -   [x] Aggiunte macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Aggiunte macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, cicalino, ecc...) - M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
