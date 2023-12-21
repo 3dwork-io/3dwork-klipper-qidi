@@ -26,6 +26,7 @@
 > -   Desde la interfaz de usuario web de Klipper, agregue esta línea al final de su archivo de configuración moonraker.conf:
 >
 >
+>     ### 3Dwork Moonraker - Update Manager
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 
 # Lista de tareas
