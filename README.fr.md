@@ -11,7 +11,7 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une installation propre :
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
