@@ -16,8 +16,10 @@ uninstall_3dwork-klipper-qidi()
     fi
     report_status "Uninstalling/Deleting... Klippain Shaketune"
     sudo rm -r -f /home/mks/klippain_shaketune
-    sudo rm -r -f /home/mks/klippain_shaketune-env
     report_status "Uninstalling/Deleting... Klippain Shaketune ENV"
+    sudo rm -r -f /home/mks/klippain_shaketune-env
+    report_status "Uninstalling/Deleting... Git Hooks"
+    sudo rm /home/mks/klipper_config/3dwork-klipper-qidi/.git/hooks/post-merge
 }
 
 # Force script to exit if an error occurs
