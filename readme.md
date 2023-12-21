@@ -1,4 +1,4 @@
-# Installation steps
+d# Installation steps
 - Login using SSH client to your QIDI printer
 - Execute this command to access klipper_config path
 ```
@@ -24,7 +24,7 @@ git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 ```
 - From your Klipper web UI add the content at the end of your printer.cfg (before SAVE_CONFIG section at the end) :
 https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg
-
+![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/d76922d3-47ee-42ae-acff-f5523b143298)
 - From the previous config enable (removing #) or disable (adding #) the configurations meets your machine/requirements
 
 # Tasks List
