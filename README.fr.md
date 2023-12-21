@@ -29,8 +29,8 @@
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
 > -   Depuis votre interface Web Klipper, ajoutez le contenu à la fin de votre imprimante.cfg (avant la section SAVE_CONFIG à la fin) :
-
-<script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
+>     {% résumé 8aeb3ce96eafd7f88a3176f63404aa53 %}
+>     <script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
 
 -   À partir de la configuration précédente, activez (supprimez #) ou désactivez (ajoutez #) les configurations répondent à votre machine/exigences
 
@@ -38,7 +38,7 @@
 
 -   [x] Créer un référentiel
 -   [x] Créer un programme d'installation de base
--   [x] Create QIDI X-Max 3 printer profile mods
+-   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
 -   [x] CI - Mettre à jour l'essentiel
 -   [x] CI - Traduction automatique Readme
 -   [x] Ajout du module de température MCU
