@@ -6,7 +6,7 @@
 
     cd ~/klipper_config/
 
--   Clone 3Dwork Cutter Bundle – QIDI Edition
+-   Clone 3Dwork Klipper Bundle - QIDI Edition
 
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
