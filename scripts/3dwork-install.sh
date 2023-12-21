@@ -63,4 +63,4 @@ install_hooks
 install_dependencies
 ensure_sudo_command_whitelisting
 register_gcode_shell_command
-install_klippain_shaketune
+# install_klippain_shaketune
