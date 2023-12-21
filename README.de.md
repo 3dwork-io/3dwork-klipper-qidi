@@ -29,8 +29,10 @@
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
 > -   Fügen Sie über Ihre Klipper-Web-Benutzeroberfläche den Inhalt am Ende Ihrer Printer.cfg hinzu (vor dem Abschnitt SAVE_CONFIG am Ende):
->     {% gist 8aeb3ce96eafd7f88a3176f63404aa53 %}
->     <script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
+
+\[{% gist 8aeb3ce96eafd7f88a3176f63404aa53 %}
+
+<script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>](https://github.com/3dwork-io/3dwork-klipper-qidi/blob/88f8336fe38dea556e204cf79ba4a59933279253/3dwork-klipper-qidi.cfg#L1)
 
 -   Aktivieren (Entfernen von #) oder Deaktivieren (Hinzufügen von #) aus der vorherigen Konfiguration entsprechen die Konfigurationen Ihrem Computer/Ihren Anforderungen
 
