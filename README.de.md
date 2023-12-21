@@ -1,4 +1,4 @@
-# Installation steps
+# Installationsschritte
 
 -   Melden Sie sich mit dem SSH-Client bei Ihrem QIDI-Drucker an
 -   Führen Sie diesen Befehl aus, um auf den klipper_config-Pfad zuzugreifen
