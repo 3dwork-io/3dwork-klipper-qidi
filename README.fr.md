@@ -34,7 +34,7 @@
 -   [x] Créer un programme d'installation de base
 -   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
 -   [x] CI - Mettre à jour l'essentiel
--   [x] CI - Traduction automatique Readme
+-   [x] CI - Readme Automatic Translation
 -   [x] Ajout du module de température MCU
 -   [x] Ajout de la configuration manuelle du niveau de lit
 -   [x] Peut ajouter des clips
