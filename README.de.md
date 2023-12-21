@@ -1,4 +1,4 @@
-# Installationsschritte
+d# Installationsschritte
 
 -   Melden Sie sich mit dem SSH-Client bei Ihrem QIDI-Drucker an
 -   Führen Sie diesen Befehl aus, um auf den klipper_config-Pfad zuzugreifen
@@ -28,11 +28,10 @@
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
-> -   Fügen Sie über Ihre Klipper-Web-Benutzeroberfläche den Inhalt am Ende Ihrer Printer.cfg hinzu (vor dem Abschnitt SAVE_CONFIG am Ende):<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>
+> -   Fügen Sie über Ihre Klipper-Web-Benutzeroberfläche den Inhalt am Ende Ihrer Printer.cfg hinzu (vor dem Abschnitt SAVE_CONFIG am Ende):<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>![image](https://github.com/3dwork-io/3dwork-klipper-qidi/assets/18049820/d76922d3-47ee-42ae-acff-f5523b143298)
+> -   Aktivieren (Entfernen von #) oder Deaktivieren (Hinzufügen von #) aus der vorherigen Konfiguration entsprechen die Konfigurationen Ihrem Computer/Ihren Anforderungen
 
--   Aktivieren (Entfernen von #) oder Deaktivieren (Hinzufügen von #) aus der vorherigen Konfiguration entsprechen die Konfigurationen Ihrem Computer/Ihren Anforderungen
-
-# Aufgabenliste
+# Tasks List
 
 -   [x] Repository erstellen
 -   [x] Basisinstallationsprogramm erstellen
