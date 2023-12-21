@@ -1,4 +1,4 @@
-# Installation steps
+# Étapes d'installation
 
 -   Connectez-vous à l'aide du client SSH à votre imprimante QIDI
 -   Exécutez cette commande pour accéder au chemin klipper_config
@@ -11,15 +11,14 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]
-> Only needed first time on clean installation:
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
 >
-> -   Launch installer
+> -   Lancer le programme d'installation
 >
 >
 >     ./3dwork-install.sh
@@ -28,11 +27,17 @@
 >
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
+>
+> -   Depuis votre interface Web Klipper, ajoutez le contenu à la fin de votre imprimante.cfg (avant la section SAVE_CONFIG à la fin) :
+
+<script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
+
+-   À partir de la configuration précédente, activez (supprimez #) ou désactivez (ajoutez #) les configurations répondent à votre machine/exigences
 
 # Liste des tâches
 
 -   [x] Créer un référentiel
--   [x] Create base installer
+-   [x] Créer un programme d'installation de base
 -   [x] Create QIDI X-Max 3 printer profile mods
 -   [x] CI - Mettre à jour l'essentiel
 -   [x] CI - Traduction automatique Readme
