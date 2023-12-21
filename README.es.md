@@ -3,30 +3,32 @@
 -   Inicie sesión usando el cliente SSH en su impresora QIDI
 -   Ejecute este comando para acceder a la ruta klipper_config
 
-
+```
     cd ~/klipper_config/
-
+```
 -   Paquete de cortador Clone 3Dwork - Edición QIDI
 
-
+```
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
+```
 
-> [!ADVERTENCIA]Sólo es necesario la primera vez en una instalación limpia:
+> [!ADVERTENCIA] Sólo es necesario la primera vez en una instalación limpia:
 >
 > -   Ejecute este comando para acceder a la carpeta de scripts del paquete
 >
->
+>```
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
->
+>```
 > -   Iniciar instalador
->
->
+>```
 >     ./3dwork-install.sh
->
+>```
 > -   Desde la interfaz de usuario web de Klipper, agregue esta línea al final de su archivo de configuración moonraker.conf:
 >
->
+>```
+>     ### 3Dwork Moonraker - Update Manager
 >     [include 3dwork-klipper-qidi/moonraker.conf]
+>```
 
 # Lista de tareas
 
