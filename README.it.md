@@ -1,7 +1,7 @@
-# Installation steps
+# Passaggi di installazione
 
 -   Accedi utilizzando il client SSH alla tua stampante QIDI
--   Execute this command to access klipper_config path
+-   Esegui questo comando per accedere al percorso klipper_config
 
 
     cd ~/klipper_config/
@@ -28,7 +28,8 @@
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
-> -   Dall'interfaccia utente web di Klipper aggiungi il contenuto alla fine del tuo fileprinter.cfg (prima della sezione SAVE_CONFIG alla fine):
+> -   From your Klipper web UI add the content at the end of your printer.cfg (before SAVE_CONFIG section at the end) :
+>     <https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>
 
 -   Dalla configurazione precedente abilita (rimuovendo #) o disabilita (aggiungendo #) le configurazioni soddisfano i tuoi requisiti/macchina
 
@@ -37,10 +38,10 @@
 -   [x] Crea archivio
 -   [x] Crea programma di installazione di base
 -   [x] Crea mod del profilo stampante QIDI X-Max 3
--   [x] CI: aggiornamento dei contenuti
+-   [x] CI - Aggiornamento Gists
 -   [x] CI - Traduzione automatica Leggimi
 -   [x] Aggiunto mod temperatura MCU
 -   [x] Aggiunta la configurazione manuale del livellamento del letto
--   [x] Added Klippain ShakeTune
+-   [x] Può aggiungere clip
 -   [x] Aggiunte macro Smart PID con selezione della temperatura e della velocità della ventola e registro/notifica - PID_EXTRUDER / PID_BED / PID_ALL
 -   [ ] Aggiunte macro Smart M600 con supporto per la gestione dei filamenti, variabili per la configurazione personalizzata e macro utente per integrare azioni di terze parti (come gestione led, cicalino, ecc...) - M600 / PAUSE_MACRO / \_DISABLE_FS / UNLOAD_FILAMENT / PURGE_FILAMENT / \_ENABLE_FS
