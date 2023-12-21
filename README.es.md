@@ -27,6 +27,12 @@
 >
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
+>
+> -   Desde su interfaz de usuario web de Klipper, agregue el contenido al final de su impresora.cfg (antes de la sección SAVE_CONFIG al final):
+
+<script src="https://gist.github.com/alienboyxp/8aeb3ce96eafd7f88a3176f63404aa53.js"></script>
+
+-   Desde la configuración anterior, habilite (eliminando #) o deshabilite (agregando #), las configuraciones cumplen con sus requisitos/máquina
 
 # Lista de tareas
 
