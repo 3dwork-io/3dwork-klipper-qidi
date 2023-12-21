@@ -30,8 +30,8 @@
 
 # Liste des tâches
 
--   [x] Créer un référentiel
--   [x] Créer un programme d'installation de base
+-   [x] Create Repository
+-   [x] Create base installer
 -   [x] Créer des mods de profil d'imprimante QIDI X-Max 3
 -   [x] CI - Mettre à jour l'essentiel
 -   [x] CI - Traduction automatique Readme
