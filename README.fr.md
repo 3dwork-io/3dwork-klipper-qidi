@@ -11,7 +11,7 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une nouvelle installation :
+> [!AVERTISSEMENT]Nécessaire uniquement la première fois lors d'une installation propre :
 >
 > -   Exécutez cette commande pour accéder au dossier des scripts du bundle
 >
@@ -28,7 +28,7 @@
 >
 >     [include 3dwork-klipper-qidi/moonraker.conf]
 >
-> -   Depuis votre interface Web Klipper, ajoutez le contenu à la fin de votre imprimante.cfg (avant la section SAVE_CONFIG à la fin) :
+> -   Depuis votre interface Web Klipper, ajoutez le contenu à la fin de votre imprimante.cfg (avant la section SAVE_CONFIG à la fin) :<https://github.com/3dwork-io/3dwork-klipper-qidi/blob/8f9ae9970644369d1b3bdf7f6c5e72a331f8cb71/3dwork-klipper-qidi.cfg>
 
 -   À partir de la configuration précédente, activez (supprimez #) ou désactivez (ajoutez #) les configurations répondent à votre machine/exigences
 
