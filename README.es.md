@@ -11,14 +11,14 @@
 
     git clone https://github.com/3dwork-io/3dwork-klipper-qidi.git
 
-> [!WARNING]Sólo es necesario la primera vez en una instalación limpia:
+> [!ADVERTENCIA]Sólo es necesario la primera vez en una instalación limpia:
 >
 > -   Ejecute este comando para acceder a la carpeta de scripts del paquete
 >
 >
 >     cd /home/mks/klipper_config/3dwork-klipper-qidi/scripts/
 >
-> -   Launch installer
+> -   Iniciar instalador
 >
 >
 >     ./3dwork-install.sh
